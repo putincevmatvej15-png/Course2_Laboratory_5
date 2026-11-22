@@ -34,10 +34,4 @@
   - Переопределяет `initialize()`, `update()`, `draw()`.
 
 ### Полиморфизм
-В `main()` объект создаётся через указатель на базовый класс:
-
-```cpp
-CellularAutomaton* cave = new CaveGenerator(width, height, cellSize, birthLimit, deathLimit, chance);
-cave->initialize();
-cave->update();
-cave->draw(window);
+В `main()` объект создаётся через указатель на базовый класс.
